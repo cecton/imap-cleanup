@@ -1,0 +1,17 @@
+[package]
+name = "imap-cleanup"
+version = "0.0.0"
+authors = ["Cecile Tonglet <cecile.tonglet@gmail.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2021"
+description = "Cleanup your old emails"
+
+[dependencies]
+chrono = "0.4.19"
+clap = { version = "3.2.5", features = ["derive"] }
+imap = "2.4.1"
+md-5 = "0.10.1"
+native-tls = "0.2.10"
+regex = "1"
+rpassword = "6.0"
+itertools = "0.10.3"
